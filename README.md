@@ -31,17 +31,23 @@ Clone that application using [Git](https://git-scm.com) and follow the next step
 
 ```bash
 # 1. Clone this repository
-$ git clone https://github.com/heberGustavo/admin-template-web.git
+$ git clone https://github.com/heberGustavo/todo-app.git
 
 # 2. Open the project in Visual Studio Code
 
-# 3. FIREBASE: It's necessary create and config file ".env.local". The 'key' are: NEXT_PUBLIC_FIREBASE_API_KEY, NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN and NEXT_PUBLIC_FIREBASE_PROJECT_ID
+# 3. To run the 'backend' you need to have and configure the 'mongodb' database
 
-# 4. In Terminal, type:
-  4.1 - npm install
-  4.2 - npm run dev
+# 4. It's necessary to use 2 terminals (backend and frontend)
 
-# 5. Open the application in browser
+# 5. In Terminal, in folder 'backend' type:
+  5.1 - npm install
+  5.2 - npm run dev
+
+# 6. In Terminal, in folder 'frontend' type:
+  6.1 - npm install
+  6.2 - npm run dev
+
+# 5. Open the application in browser: http://localhost:8080/
 
 # 6. It's running 
 
@@ -49,4 +55,4 @@ $ git clone https://github.com/heberGustavo/admin-template-web.git
 
 
 ## :memo: Licence 
-This project is under the MIT license. See the [LICENSE](https://github.com/heberGustavo/admin-template-web/blob/master/LICENSE) for more information.
+This project is under the MIT license. See the [LICENSE](https://github.com/heberGustavo/todo-app/blob/main/LICENSE) for more information.
